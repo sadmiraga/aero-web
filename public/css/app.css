@@ -10243,6 +10243,12 @@ body {
   margin-bottom: 100px;
 }
 
+.contact-us-button:hover {
+  border: 1px solid #0098FA;
+  color: #0098FA;
+  background-color: white;
+}
+
 .partner-image {
   width: 10%;
   height: -webkit-fit-content;

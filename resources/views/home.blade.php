@@ -66,7 +66,7 @@
         <div class="step">
             <div class="step-heading">
                 <span class="step-heading-text">3. IZVEDBA</span>
-                <img src="/images/icons/pencil.png" class="step-heading-icon">
+                <img src="/images/icons/water.png" class="step-heading-icon">
             </div>
             <div class="step-text-wrapper">
                 <p class="step-text">Po vaši želji za vas izdelamo plastenke v dogovorjenem roku. Ponujamo tudi
