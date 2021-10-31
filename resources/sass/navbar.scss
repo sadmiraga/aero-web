@@ -1,0 +1,32 @@
+
+@media only screen and (max-width:992px){
+    //hide top logo menu
+    .logo-container{
+        display:none;
+    }
+
+    .navbar-brand{
+        display:block;
+    }
+}
+
+
+.main-navbar{
+    background-color: #3C8BBA !important;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 3vh;
+}
+
+
+.dropdown-button{
+    border:none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end !important;
+}

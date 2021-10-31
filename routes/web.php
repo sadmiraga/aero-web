@@ -17,3 +17,6 @@ Route::get('/', function () {
     return view('layouts.mainLayout');
 });
 
+Route::get('/izdelki-in-reference', 'viewController@references');
+Route::get('/o-nas', 'viewController@aboutUs');
+Route::get('/kontakt', 'viewController@contact');
