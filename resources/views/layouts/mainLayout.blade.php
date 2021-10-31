@@ -92,7 +92,7 @@
 
     @yield('content')
 
-
+    <x-footer />
 </body>
 
 </html>

@@ -20,4 +20,9 @@ class viewController extends Controller
     {
         return view('contact');
     }
+
+    public function home()
+    {
+        return view('home');
+    }
 }
