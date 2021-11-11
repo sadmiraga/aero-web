@@ -64,18 +64,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">DOMOV</a>
+                    <a class="nav-link" href="/">DOMOV</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">IZDELKI IN REFERENCE</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">O NAS</a>
+                    <a class="nav-link" href="/izdelki-in-reference">IZDELKI IN REFERENCE</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">KONTAKT</a>
+                    <a class="nav-link" href="/o-nas">O NAS</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/kontakt">KONTAKT</a>
                 </li>
             </ul>
 

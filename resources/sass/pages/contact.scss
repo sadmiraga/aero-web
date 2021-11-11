@@ -1,0 +1,51 @@
+.director-icon{
+    width: 6%;
+}
+
+.contact-heading{
+    display: flex;
+    align-items: flex-start;
+    text-transform: uppercase;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.contact-col{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-heading h2{
+    color: #5d5d5d;
+    font-weight: 300;
+}
+
+.location-heading{
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+
+.location-text{
+    text-align: center;
+    margin-top:50px;
+    font-size:16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.location-text p{
+    width: fit-content;
+}
+
+.location-text a{
+    color:black;
+}
+
+.location-text a:hover{
+    text-decoration: none;
+}

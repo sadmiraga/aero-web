@@ -132,12 +132,14 @@ body{
     border: none !important;
     padding: 10px;
     margin-bottom: 100px;
+    border: 1px solid #0098FA !important;
 }
 
 .contact-us-button:hover{
     border:1px solid #0098FA !important;
     color: #0098FA;
-    background-color:white;
+    background-color:#f8fafc;
+    border: 1px solid #0098FA !important;
 }
 
 //partners
@@ -149,6 +151,13 @@ body{
 .parners-row{
     justify-content: space-evenly;
     align-items: center;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
 }
 
 .partners-heading{
