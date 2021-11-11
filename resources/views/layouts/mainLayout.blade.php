@@ -48,7 +48,7 @@
 
     <!-- LOGO NAVBAR -->
     <div class="logo-container">
-        <img src="images/logo.png">
+        <img src="/images/logo.png">
     </div>
 
     <nav class="main-navbar navbar navbar-expand-lg navbar-light bg-light">
@@ -64,26 +64,53 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">DOMOV</a>
+                    <a href="{{ route('home', app()->getLocale()) }}" class="nav-link">
+                        {{ __('HOME') }}
+                    </a>
                 </li>
+
+
                 <li class="nav-item">
-                    <a class="nav-link" href="/izdelki-in-reference">IZDELKI IN REFERENCE</a>
+                    <a href="{{ route('references', app()->getLocale()) }}" class="nav-link">
+                        {{ __('REFERENCES') }}
+                    </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/o-nas">O NAS</a>
+                    <a href="{{ route('aboutUs', app()->getLocale()) }}" class="nav-link">
+                        {{ __('ABOUTUS') }}
+                    </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/kontakt">KONTAKT</a>
+                    <a href="{{ route('contact', app()->getLocale()) }}" class="nav-link">
+
+                        {{ __('CONTACT') }}
+                    </a>
                 </li>
             </ul>
 
             <div class="language-container my-2 my-lg-0">
-                <div class="language-box" id="slovenian"></div>
-                <div class="language-box" id="english"></div>
-                <div class="language-box" id="german"></div>
-                <div class="language-box" id="croatian"></div>
+
+                <!-- SI -->
+                <a href="{{ route(Route::currentRouteName(), 'si') }}">
+                    <div class="language-box" id="slovenian"></div>
+                </a>
+
+                <!-- EN -->
+                <a href="{{ route(Route::currentRouteName(), 'en') }}">
+                    <div class="language-box" id="english"></div>
+                </a>
+
+                <!-- DE -->
+                <a href="{{ route(Route::currentRouteName(), 'de') }}">
+                    <div class="language-box" id="german"></div>
+                </a>
+
+                <!-- HR -->
+                <a href="{{ route(Route::currentRouteName(), 'hr') }}">
+                    <div class="language-box" id="croatian"></div>
+                </a>
             </div>
         </div>
     </nav>

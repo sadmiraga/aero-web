@@ -14,8 +14,20 @@ use Illuminate\Support\Facades\Route;
 */
 
 
+//pages
 
-Route::get('/', 'viewController@home');
-Route::get('/izdelki-in-reference', 'viewController@references');
-Route::get('/o-nas', 'viewController@aboutUs');
-Route::get('/kontakt', 'viewController@contact');
+
+Route::get('/change-lang/{lang}', 'viewController@changeLang');
+
+
+
+Route::redirect('/', '/si');
+
+Route::group(['prefix' => '{language}'], function () {
+
+
+    Route::get('/', 'viewController@home')->name('home');
+    Route::get('/izdelki-in-reference', 'viewController@references')->name('references');
+    Route::get('/o-nas', 'viewController@aboutUs')->name('aboutUs');
+    Route::get('/kontakt', 'viewController@contact')->name('contact');
+});

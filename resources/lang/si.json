@@ -1,0 +1,58 @@
+{
+
+    "contact": "kontakt",
+    "partners": "partnerji",
+    "HOME": "DOMOV",
+    "REFERENCES": "IZDELKI IN REFERENCE",
+    "ABOUTUS": "O NAS",
+    "CONTACT": "KONTAKT",
+
+
+    "homeH1" : "Prava izbira pri izdelavi plastenk, zapork in prišilk za kozmetiko, famracijo, prehrano, kemijo in svečarstvo",
+    "homeP1": "Že več kot 50 let uspešno rešujemo težave naših strank, jim svetujemo ter sledimo njihovim željam pri izboru plastenk, zapork, pršilk, tiska, itd.. Materiali najvišje kakovosti, najmodernejša strojna oprema, naša strokovna podkovanost ter dolgoletne izkušnje so zagotovilo, da boste z našimi izdelki nadvse zadovoljni.",
+    "homeh2" : "Veselimo se Vašega povpraševanja!",
+    "step1heading" : "ideja",
+    "step1text":"Potrebujete izvirno, inovativno in kakovostno plastenko za vaš izdelek?",
+    "step2heading" : "zasnova",
+    "step2text":"Širok asortiman obstoječih izdelkov vam omogoča veliko možnosti ter kreativnosti pri izboru želene pihane plastične embalaže. Ustrežemo tudi individualnim željam.",
+    "step3heading" : "izvedba",
+    "step3text":"Po vaši želji za vas izdelamo plastenke v dogovorjenem roku. Ponujamo tudi zaporke, pršilke, uredimo tisk, itd.",
+
+
+    "director": "direktor",
+    "sales" : "Prodaja",
+    "locatioHeading": "kje se nahajamo?",
+
+    "aboutHeading1" : "Podjetje na področju proizvodnje plastenk",
+    "aboutText1":"Aero-polyplast d.o.o. je eno od vodilnih slovenskih podjetij na področju proizvodnje plastenk za kozmetično, farmacevtsko in prehrambno industrijo. Proizvajamo tudi plastenke za profesionalno higieno in kemično industrijo ter nagrobne sveče najrazličnejših oblik.",
+    "aboutHeading2" : "Plastenke iz certificiranih in preverjenih materialov",
+    "aboutText2" : "Plastenke proizvajamo le iz certificiranih in preverjenih materialov in barv, ki zagotavljajo visoko kvaliteto. Za večji standard na področju kakovosti imamo na razpolago tudi prostor, ki je ločen od ostalih (t.i. CLEAN ROOM) in omogoča raven kvalitete, ki jo zahtevajo predvsem farmacevtska podjetja.",
+    "aboutHeading3" : "Fleksibilen in kratek dobavni rok",
+    "aboutText3" :"Imamo 30 sodobnih pihalnih strojev, na katerih izdelujemo širok asortiman plastenk - različnih barv, materialov (PE, PP, PVC in PET-G) in velikosti (plastenke od 5 ml do 1500 ml), kar omogoča fleksibilnost ter prilagodljivost na krajše dobavne roke.",
+    "aboutHeading4" : "Celovite rešitve s področja plastične embalaže",
+    "aboutText4" : "Strankam zagotavljamo celovite rešitve s področja plastične embalaže. Svetujemo pri razvoju izdelka od ideje, zasnove in izvedbe ter pri zasnovi projekta (izdelava načrta, izdelava orodja, izdelava vzorčnih izdelkov) ter pri izboru plastenk, zapork, pršilk, tiska, itd.",
+    "historyHeading1": "Vsakega naročnika obravnavamo individualno ter pomagamo najti optimalno rešitev glede na potrebe in želje.",
+    "historyHeading2": "KRATKA ZGODOVINA PODJETJA",
+    "history1": "Zametke sedanjega podjetja za pihanje embalaže je osnoval Ferry Souvan.",
+    "history2": "Ustanovitev podjetja POZD Aeroplast in podjetja POZD Polyplast (brata Ferry in Leo Souvan).",
+    "history3": "Podjetji se združita v POZD Aero-polyplast.",
+    "history4": "Pridružitev podjetja POZD Miniorplast.",
+    "history5": "Podjetje se preoblikuje v Aero-polyplast d.o.o..",
+    "history6": "Pričetek gradnje novega sodobnega proizvodno-poslovnega objekta, ki obsega 3000 m2 pokritih površin.",
+    "history7": "Pripojitev podjetja Severplast d.o.o..",
+    "history8": "Uspešna preselitev podjetij na novo lokacijo.",
+
+    "productHeading1": "PLASTENKE ZA KOZMETIKO",
+    "productHeading2": "PLASTENKE ZA FARMACIJO",
+    "productHeading3": "PLASTENKE ZA PREHRAMBENO INDUSTRIJO",
+    "productHeading4": "PLASTENKE ZA KEMIJSKO INDUSTRIJO IN PROFESIONALNO HIGIENO",
+    "productHeading5": "SVEČARSTVO",
+    "productText1" : "V kozmetični industriji smo prisotni že vse od našega začetka poslovanja. Edinstvene oblike in nove tehnike izdelave sta v kozmetiki najpomembnejši, pri tem vam pomagamo biti drugačni od ostalih. Proizvajamo: Plastenke za šampone, plastenke za lasne gele, plastenke za sončne kreme, plastenke za acetone, itd.",
+    "productText2": "Delo z najboljšimi, certificiranimi materiali in t.i. CLEAN ROOM nam omogočajo, da lahko zadostimo pogojem, ki jih nalaga farmacevtska industrija. Proizvajamo: Plastenke s kapalkami (10, 20 in 30 ml), Plastenke z pršilom za nos, itd.",
+    "productText3": "V prehrambeni industriji pomagamo strankam do privlačne embalaže, saj le ta lahko zagotovi prepoznavnost na prodajalni polici. Proizvajamo: Plastenke za sladoledne prelive, Plastenke za med, Plastenke za kis, itd.",
+    "productText4": "Plastenke za doziranje lepila proizvajamo v različicah od 150 do 750 ml. Nudimo celoten spekter plastenk za čistila. Embalaža za zaščitna sredstva, kot so dodatki avtomobilskim motorjem. Glede na vsebino polnenja v embalažo vam svetujemo z izborom materiala. Proizvajamo: Plastenke za doziranje lepila (150 do 750ml), plastenke za čistila, plastenke za korekturna sredstva (EDIGS), plastenke za milo, plastenke za dozatorje za milo, plastenke za zaščito pred škodljivci, itd.",
+    "productText5": "Proizvajamo kompletni program za nagrobne sveče vseh oblik, barv in velikosti izPVC-ja."
+
+
+
+}

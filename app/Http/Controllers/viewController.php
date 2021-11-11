@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App;
 use Illuminate\Http\Request;
 
 class viewController extends Controller
@@ -24,5 +25,12 @@ class viewController extends Controller
     public function home()
     {
         return view('home');
+    }
+
+
+    public function changeLang($lang)
+    {
+        App::setLocale($lang);
+        return redirect()->back();
     }
 }

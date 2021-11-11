@@ -1,5 +1,5 @@
 <div class="partners-container">
-    <h2 class="partners-heading">PARTNERJI</h2>
+    <h2 class="partners-heading">{{ __('partners') }}</h2>
 
     <div class="parners-row row">
         <img src="/images/partners/lk.png" class="partner-image">

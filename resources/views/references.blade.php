@@ -7,7 +7,7 @@
     <!-- KOZMETIKA -->
     <div class="reference-heading-container">
 
-        <h2 class="reference-heading">PLASTENKE ZA KOZMETIKO</h2>
+        <h2 class="reference-heading">{{ __('productHeading1') }}</h2>
 
         <div class="reference-logos-container">
             <img src="/images/reference-logos/trebnik.webp" class="reference-logo">
@@ -16,10 +16,7 @@
         </div>
 
         <div class="referece-text-container">
-            <p class="reference-text">V kozmetični industriji smo prisotni že vse od našega začetka poslovanja. Edinstvene
-                oblike in nove tehnike izdelave sta v kozmetiki najpomembnejši, pri tem vam pomagamo biti drugačni od
-                ostalih. Proizvajamo: Plastenke za šampone, plastenke za lasne gele, plastenke za sončne kreme, plastenke za
-                acetone, itd.</p>
+            <p class="reference-text">{{ __('productText1') }}</p>
         </div>
 
         <div class="reference-images-container">
@@ -98,7 +95,7 @@
     <!-- FARMACIJA -->
     <div class="reference-heading-container">
 
-        <h2 class="reference-heading">PLASTENKE ZA FARMACIJO</h2>
+        <h2 class="reference-heading">{{ __('productHeading2') }}</h2>
 
         <div class="reference-logos-container">
             <img src="/images/reference-logos/lk.png" class="reference-logo">
@@ -106,9 +103,7 @@
         </div>
 
         <div class="referece-text-container">
-            <p class="reference-text">Delo z najboljšimi, certificiranimi materiali in t.i. CLEAN ROOM nam omogočajo, da
-                lahko zadostimo pogojem, ki jih nalaga farmacevtska industrija. Proizvajamo: Plastenke s kapalkami (10, 20
-                in 30 ml), Plastenke z pršilom za nos, itd.</p>
+            <p class="reference-text">{{ __('productText2') }}</p>
         </div>
 
         <div class="reference-images-container">
@@ -150,16 +145,14 @@
     <!-- PREHRAMBENA INDUSTRIJA -->
     <div class="reference-heading-container">
 
-        <h2 class="reference-heading">PLASTENKE ZA PREHRAMBENO INDUSTRIJO</h2>
+        <h2 class="reference-heading">{{ __('productHeading3') }}</h2>
 
         <div class="reference-logos-container">
             <img src="/images/reference-logos/medex.png" class="reference-logo">
         </div>
 
         <div class="referece-text-container">
-            <p class="reference-text">V prehrambeni industriji pomagamo strankam do privlačne embalaže, saj le ta lahko
-                zagotovi prepoznavnost na prodajalni polici. Proizvajamo: Plastenke za sladoledne prelive, Plastenke za med,
-                Plastenke za kis, itd.</p>
+            <p class="reference-text">{{ __('productText3') }}</p>
         </div>
 
         <div class="reference-images-container">
@@ -188,7 +181,7 @@
     <!-- KEMIJSKA INDUSTRIJA -->
     <div class="reference-heading-container">
 
-        <h2 class="reference-heading">PLASTENKE ZA KEMIJSKO INDUSTRIJO IN PROFESIONALNO HIGIENO</h2>
+        <h2 class="reference-heading">{{ __('productHeading4') }}</h2>
 
         <div class="reference-logos-container">
             <img src="/images/reference-logos/agrolit.png" class="reference-logo">
@@ -196,11 +189,7 @@
         </div>
 
         <div class="referece-text-container">
-            <p class="reference-text">Plastenke za doziranje lepila proizvajamo v različicah od 150 do 750 ml. Nudimo
-                celoten spekter plastenk za čistila. Embalaža za zaščitna sredstva, kot so dodatki avtomobilskim motorjem.
-                Glede na vsebino polnenja v embalažo vam svetujemo z izborom materiala. Proizvajamo: Plastenke za doziranje
-                lepila (150 do 750ml), plastenke za čistila, plastenke za korekturna sredstva (EDIGS), plastenke za milo,
-                plastenke za dozatorje za milo, plastenke za zaščito pred škodljivci, itd.</p>
+            <p class="reference-text">{{ __('productText4') }}</p>
         </div>
 
         <div class="reference-images-container">
@@ -277,19 +266,17 @@
         </div>
     </div>
 
-
     <!-- SVEČARSTVO -->
     <div class="reference-heading-container">
 
-        <h2 class="reference-heading">SVEČARSTVO</h2>
+        <h2 class="reference-heading">{{ __('productHeading5') }}</h2>
 
         <div class="reference-logos-container">
             <img src="/images/reference-logos/svečarstvo-jurkovič.jpg" class="reference-logo">
         </div>
 
         <div class="referece-text-container">
-            <p class="reference-text">Proizvajamo kompletni program za nagrobne sveče vseh oblik, barv in velikosti iz
-                PVC-ja.</p>
+            <p class="reference-text">{{ __('productText5') }}</p>
         </div>
 
         <div class="reference-images-container">
