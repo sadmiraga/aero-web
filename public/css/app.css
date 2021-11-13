@@ -10639,6 +10639,7 @@ body {
   text-align: center;
   font-weight: 200;
   margin-bottom: 50px;
+  text-transform: uppercase;
 }
 
 .location-text {
@@ -10697,4 +10698,13 @@ body {
 .parners-row a {
   margin-right: 1rem;
   margin-left: 1rem;
+}
+
+.author {
+  color: white;
+}
+
+.author a {
+  color: white;
+  text-decoration: underline;
 }

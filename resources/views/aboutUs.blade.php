@@ -68,7 +68,7 @@
 
     <!-- FOURTH -->
     <div class="about-line-container">
-        <h2 class="about-heading">{{ __('aboutHeading4  ') }}</h2>
+        <h2 class="about-heading">{{ __('aboutHeading4') }}</h2>
 
         <div class="row about-row">
 
