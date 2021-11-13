@@ -14,7 +14,7 @@
     <div class="about-line-container">
         <h2 class="about-heading">{{ __('aboutHeading1') }}</h2>
 
-        <div class="row about-row">
+        <div class="row about-row rev">
 
             <!-- TEXT --->
             <div class="about-text-container">
@@ -52,7 +52,7 @@
     <div class="about-line-container">
         <h2 class="about-heading">{{ __('aboutHeading3') }}</h2>
 
-        <div class="row about-row">
+        <div class="row about-row rev">
 
             <!-- TEXT --->
             <div class="about-text-container">

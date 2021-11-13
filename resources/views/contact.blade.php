@@ -3,7 +3,7 @@
 @section('content')
 
 
-    <div class="row" style="margin-top:100px;margin-bottom:100px;">
+    <div class="row contact-row" style="margin-top:100px;margin-bottom:100px;">
         <div class="col contact-col">
             <div class="contact-heading">
                 <img src="/images/icons/director.png" class="director-icon">
