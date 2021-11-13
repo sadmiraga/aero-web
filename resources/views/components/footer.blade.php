@@ -8,5 +8,5 @@
     <p class="footer-text">Telefon: 01 200 27 80</p>
 
 
-    <p class="">Created by: <a href="sadmir-hasanic.com">Sadmir Hasanic</a></p>
+    <p class="author">Created by: <a href="http://sadmir-hasanic.com/">Sadmir Hasanic</a></p>
 </footer>

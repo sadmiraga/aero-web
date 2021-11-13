@@ -8,6 +8,10 @@ body{
     color: #007BC0;
     font-weight: bold;
     line-height: 26px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 2rem;
 }
 
 .hero-wrapper
@@ -65,7 +69,7 @@ body{
     color:#414141;
     text-align: center;
     margin-top:65px;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     font-weight: 500;
     font-size:36px;
 }
@@ -109,6 +113,7 @@ body{
 
 .step-heading-text{
     font-size: 28px;
+    text-transform: uppercase;
 }
 
 
@@ -119,6 +124,7 @@ body{
 
 .step-arrow img{
     width: 50px;
+    opacity: 0.5;
 }
 
 
@@ -133,6 +139,7 @@ body{
     padding: 10px;
     margin-bottom: 100px;
     border: 1px solid #0098FA !important;
+    text-transform: uppercase;
 }
 
 .contact-us-button:hover{
@@ -144,7 +151,7 @@ body{
 
 //partners
 .partner-image{
-    width: 10%;
+    width: 10rem;
     height: fit-content;
 }
 
@@ -170,6 +177,7 @@ body{
     padding-bottom: 20px;
     margin-bottom: 20px;
     width: 85%;
+    text-transform: uppercase;
 }
 
 .partners-container{

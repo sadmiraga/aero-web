@@ -10126,6 +10126,10 @@ body {
   color: #007BC0;
   font-weight: bold;
   line-height: 26px;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 2rem;
 }
 
 .hero-wrapper .col {
@@ -10178,7 +10182,7 @@ body {
   color: #414141;
   text-align: center;
   margin-top: 65px;
-  margin-bottom: 50px;
+  margin-bottom: 120px;
   font-weight: 500;
   font-size: 36px;
 }
@@ -10220,6 +10224,7 @@ body {
 
 .step-heading-text {
   font-size: 28px;
+  text-transform: uppercase;
 }
 
 .step-arrow {
@@ -10229,6 +10234,7 @@ body {
 
 .step-arrow img {
   width: 50px;
+  opacity: 0.5;
 }
 
 .contact-us-button {
@@ -10242,6 +10248,7 @@ body {
   padding: 10px;
   margin-bottom: 100px;
   border: 1px solid #0098FA !important;
+  text-transform: uppercase;
 }
 
 .contact-us-button:hover {
@@ -10252,7 +10259,7 @@ body {
 }
 
 .partner-image {
-  width: 10%;
+  width: 10rem;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -10280,6 +10287,7 @@ body {
   padding-bottom: 20px;
   margin-bottom: 20px;
   width: 85%;
+  text-transform: uppercase;
 }
 
 .partners-container {
@@ -10395,6 +10403,11 @@ body {
   text-align: center;
   margin-bottom: 60px;
   color: #5d5d5d;
+  border-bottom: 1px solid #AAAAAA !important;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 1rem;
 }
 
 .about-text-container {
@@ -10504,6 +10517,7 @@ body {
 }
 
 .steps::after {
+  height: 90%;
   content: "";
   position: absolute;
   width: 1px;
@@ -10674,4 +10688,13 @@ body {
   font-size: 16px;
   line-height: 28px;
   text-align: center;
+}
+
+.partner-image:hover {
+  cursor: pointer;
+}
+
+.parners-row a {
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
