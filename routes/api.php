@@ -17,3 +17,15 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+
+Route::get('/displayAll', 'apiController@displayAll');
+
+Route::get('/displaySingle/{id}', 'apiController@displaySingle');
+
+Route::get('/search/{query}', 'apiController@search');
+
+Route::post('/import', 'apiController@import');
+
+Route::post('/export', 'apiController@export');
