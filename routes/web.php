@@ -14,15 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-//pages
 
+Route::get('/admin', 'functionController@displayData');
+
+Route::get('ident/{ident}', 'functionController@test');
 
 Route::get('/change-lang/{lang}', 'viewController@changeLang');
-
-
-
 Route::redirect('/', '/si');
 
+
+//pages
 Route::group(['prefix' => '{language}'], function () {
 
 
@@ -31,3 +32,5 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/o-nas', 'viewController@aboutUs')->name('aboutUs');
     Route::get('/kontakt', 'viewController@contact')->name('contact');
 });
+
+Auth::routes();

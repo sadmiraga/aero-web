@@ -152,7 +152,9 @@ body{
 //partners
 .partner-image{
     width: 10rem;
-    height: fit-content;
+    height: fit-content !important;
+    max-height: fit-content !important;
+
 }
 
 .parners-row{

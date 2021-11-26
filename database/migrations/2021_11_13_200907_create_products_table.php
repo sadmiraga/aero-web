@@ -16,12 +16,15 @@ class CreateProductsTable extends Migration
         Schema::create('products', function (Blueprint $table) {
             $table->increments('id');
             $table->string('naziv');
-            $table->string('ident');
             $table->integer('zaloga');
-            $table->string('stevilkaNarocila');
+            $table->string('stevilkaNarocila')->nullable();
             $table->string('lokacija1');
             $table->string('lokacija2');
             $table->string('lokacija3');
+            $table->string('kolicina');
+
+            $table->unsignedInteger('ident_id')->unsigned();
+            $table->foreign('ident_id')->references('id')->on('idents')->onDelete('cascade');
 
             $table->timestamps();
         });

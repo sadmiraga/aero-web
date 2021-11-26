@@ -272,7 +272,7 @@
         <h2 class="reference-heading">{{ __('productHeading5') }}</h2>
 
         <div class="reference-logos-container">
-            <img src="/images/reference-logos/svečarstvo-jurkovič.jpg" class="reference-logo">
+            <img src="/images/reference-logos/svecarstvo-jurkovic.jpg" class="reference-logo">
         </div>
 
         <div class="referece-text-container">
