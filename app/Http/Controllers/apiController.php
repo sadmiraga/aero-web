@@ -28,6 +28,17 @@ class apiController extends Controller
         return response()->json($products);
     }
 
+    public function getIdents()
+    {
+
+        $idents = product::select('idents.naziv', DB::raw('SUM(products.zaloga) As zaloga'))
+            ->leftJoin('idents', 'idents.id', '=', 'products.ident_id')
+            ->groupBy('idents.naziv')
+            ->get();
+
+        return response()->json($idents);
+    }
+
     public function search($query)
     {
 
@@ -51,7 +62,7 @@ class apiController extends Controller
     }
 
 
-    public function import(Request $request)
+    public function newProduct(Request $request)
     {
         $product = new product();
         $product->naziv = strtoupper($request['naziv']);
@@ -86,11 +97,40 @@ class apiController extends Controller
         return response()->json($message, 200);
     }
 
+    //odstej sa zaloge
     public function export(Request $request)
     {
         $product = product::findOrFail($request['id']);
         $product->zaloga =  $product->zaloga - $request['vrednostIzvoza'];
         $product->stevilkaNarocila = "";
+        $product->save();
+
+        $message = "success";
+        return response()->json($message, 200);
+    }
+
+    //dodaj k zalogi
+    public function import(Request $request)
+    {
+        $product = product::findOrFail($request['id']);
+        $product->zaloga =  $product->zaloga + $request['vrednostIzvoza'];
+        $product->stevilkaNarocila = "";
+        $product->save();
+
+        $message = "success";
+        return response()->json($message, 200);
+    }
+
+    public function editProduct(Request $request)
+    {
+
+        $product = product::findOrFail($request['id']);
+        $product->naziv = strtoupper($request['naziv']);
+        $product->stevilkaNarocila = strtoupper($request['stevilkaNarocila']);
+        $product->kolicina = strtoupper($request['kolicina']);
+        $product->lokacija1 = strtoupper($request['lokacija1']);
+        $product->lokacija2 = strtoupper($request['lokacija2']);
+        $product->lokacija3 = strtoupper($request['lokacija3']);
         $product->save();
 
         $message = "success";

@@ -26,21 +26,7 @@ class functionController extends Controller
 
     public function export()
     {
-
         return Excel::download(new IdentsExport, 'identi.xlsx');
-
-        $idents = product::select('idents.naziv', DB::raw('SUM(products.zaloga) As zaloga'))
-            ->leftJoin('idents', 'idents.id', '=', 'products.ident_id')
-            ->groupBy('idents.naziv')
-            ->get();
-
-        \Excel::create('Export-ideta', function ($excel) use ($idents) {
-
-            $excel->sheet('Sheetname', function ($sheet) use ($idents) {
-
-                $sheet->fromArray($idents);
-            });
-        })->download('xls');
     }
 
     public function test($ident)

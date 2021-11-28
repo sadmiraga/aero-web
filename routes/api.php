@@ -21,11 +21,15 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 Route::get('/displayAll', 'apiController@displayAll');
+Route::get('/idents', 'apiController@getIdents');
 
-Route::get('/displaySingle/{id}', 'apiController@displaySingle');
 
 Route::get('/search/{query}', 'apiController@search');
 
-Route::post('/import', 'apiController@import');
+
+Route::post('/newProduct', 'apiController@newProduct');
 
 Route::post('/export', 'apiController@export');
+Route::post('/import', 'apiController@import');
+
+Route::post('/editProduct', 'apiController@editProduct');
