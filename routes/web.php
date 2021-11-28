@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/admin', 'functionController@displayData');
+Route::get('/export', 'functionController@export');
 
 Route::get('ident/{ident}', 'functionController@test');
 
