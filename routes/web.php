@@ -13,12 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+
+Route::middleware(['adminMiddleware'])->group(function () {
+
+    Route::get('/identi', 'functionController@identi');
+    Route::get('/admin', 'functionController@admin');
+    Route::get('/export', 'functionController@export');
+    Route::get('/sporocila', 'functionController@messages');
+    Route::get('/zbrisi-sporocilo/{messageID}','functionController@deleteMessage');
+});
 
 
-Route::get('/admin', 'functionController@displayData');
-Route::get('/export', 'functionController@export');
-
-Route::get('ident/{ident}', 'functionController@test');
+Route::post('/poslji-sporocilo','messageController@store');
 
 Route::get('/change-lang/{lang}', 'viewController@changeLang');
 Route::redirect('/', '/si');
@@ -33,5 +40,3 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/o-nas', 'viewController@aboutUs')->name('aboutUs');
     Route::get('/kontakt', 'viewController@contact')->name('contact');
 });
-
-Auth::routes();

@@ -6,6 +6,11 @@
     "REFERENCES": "PROIZVODI I KUPCI",
     "ABOUTUS": "O PODUZEĆU",
     "CONTACT": "KONTAKT",
+    "form_heading": "KONTAKTIRAJTE NAS",
+    "form_name": "IME I PREZIME",
+    "form_message": "PORUKA",
+    "form_button": "POŠALJI",
+    "success_contact": "Uspješno ste poslali poruku. Kontaktirati ćemo vas u najkraćem mogucem vremenu.",
 
     "homeH1" : "Najbolji izbor za izradu puhane plastične ambalaže",
     "homeP1": "Već više od 50 godina rješavamo probleme naših kupaca, savjetujemo im i slijedimo njihove želje pri izboru ambalaže. Materijali najbolje kakvoće, najsuvremenija strojarska oprema, naša stručna potkovanost i dugogodišnje iskustvo jamstvo su za vaše izuzetno zadovoljstvo našim proizvodima.",

@@ -42,12 +42,7 @@
     <div class="container">
         <div class="header">
             <div class="header-logo">
-
                 <img src="/images/logo-white.png" width="80%">
-
-
-
-
             </div>
             <div class="header-search">
                 <button class="button-menu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 385 385">
@@ -56,7 +51,7 @@
                     </svg></button>
 
                 <h2 id="admin-header" style="color:white;">
-                    {{'IDENTI'}}
+                    {{'SPOROCILA'}}
                 </h2>
 
             </div>
@@ -85,38 +80,37 @@
             </div>
             <div class="page-content">
 
-                <a href="/export">
-                    <button style="margin-bottom: 1%;" class="btn btn-primary">IZVOZI</button>
-                </a>
+                <div class="container">
+                    <div class="row" style="width:100%;">
+                            <div class="col-md-12">
+                                <div class="card card-white mb-5">
+ 
+                                    <div class="card-body">
+                                        <ul class="list-unstyled message">
 
+                                            @foreach($messages as $message)
+                                            <li>
+                                                <div class="media align-items-center">
+                                                    <div class="media-body" style="border-bottom: 1px solid lightgray;margin-bottom: 5%;">
+                                                        <h5>{{$message->name.' - '.$message->email}}<span class="float-right text-primary"><i onclick="location.href='/zbrisi-sporocilo/{{$message->id}}'" class="far fa-trash-alt delete-button"></i></span>
+                                                        </h5> {{$message->message}}
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            @endforeach
 
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Ident</th>
-                            <th scope="col">Zaloga</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach ($idents as $ident)
-                            <tr>
-                                <td>{{ $ident->naziv }}</td>
-                                <td>{{ $ident->zaloga }}</td>
-                            </tr>
-                        @endforeach
+                                    
+                                        </ul>
 
-                    </tbody>
-                </table>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
 </body>
 
 </html>

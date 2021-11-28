@@ -6,6 +6,11 @@
     "REFERENCES": "PRODUCTS AND REFERENCES",
     "ABOUTUS": "ABOUT US",
     "CONTACT": "CONTACT",
+    "form_heading": "CONTACT US",
+    "form_name": "NAME AND SURNAME",
+    "form_message": "MESSAGE",
+    "form_button": "SEND",
+    "success_contact": "We appreciate you contacting us. One of our colleagues will get back in touch with you soon",
 
     "homeH1" : "Right choice at production of blow molding plastic packaging",
     "homeP1": "We are successfully solving our customer’s problems for more than 50 years; we advise them and follow their wishes at selection of packaging. Material of the highest quality, most modern machines, our professionalism and long-time experiences are guarantee that you will be very satisfied with our products.",

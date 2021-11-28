@@ -3,16 +3,23 @@
 @section('content')
 
 
+   @if (session()->has('success'))
+        <div style="text-align:center;" class="alert alert-success">
+            {{_('success_contact')}}
+        </div>
+    @endif
+
+
     <div class="row contact-row" style="margin-top:100px;margin-bottom:100px;">
         <div class="col contact-col">
             <div class="contact-heading">
                 <img src="/images/icons/director.png" class="director-icon">
                 <h2>{{ __('director') }}</h2>
             </div>
-            <p>Severina Gorjanc</p>
-            <p>T: +386 1 200 27 81</p>
+            <p>Jernej Kavčič</p>
+            <p>T: +386 1 200 27 80</p>
             <p>F: +386 1 257 23 83</p>
-            <p>E: severina.gorjanc@aero-polyplast.si</p>
+            <p>E: jernej.kavcic@aero-polyplast.si</p>
         </div>
 
 
@@ -21,12 +28,48 @@
                 <img src="/images/icons/prodaja.png" class="director-icon">
                 <h2>{{ __('sales') }}</h2>
             </div>
-            <p>Jernej Kavčič</p>
-            <p>T: +386 1 200 27 80</p>
+
+            <p>Severina Gorjanc</p>
+            <p>T: +386 1 200 27 81</p>
             <p>F: +386 1 257 23 83</p>
-            <p>E: jernej.kavcic@aero-polyplast.si</p>
+            <p>E: severina.gorjanc@aero-polyplast.si</p>
         </div>
     </div>
+
+
+    <div class="contact-form-container">
+
+        {!! Form::open(['url' => '/poslji-sporocilo', 'method' => 'post', 'enctype' => 'multipart/form-data']) !!}
+        @csrf
+
+            <h2 class="contact-form-heading"><i class="far fa-envelope"></i>    {{ __('form_heading') }}</h2>
+
+            <div class="form-group">
+                <div class="form-input">
+                    <input required class="form-control" name="name" placeholder="{{ __('form_name') }}">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-input">
+                    <input required class="form-control" name="email" placeholder="EMAIL">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-input">
+                    <textarea required class="form-control" rows="5" name="message" placeholder="{{ __('form_message') }}"></textarea>
+                </div>
+            </div>
+
+            <div class="form-group" style="display: flex;justify-content: center;">
+                <button class="btn btn-primary submit-contact" style="width:40%;" type="submit">{{ __('form_button') }}</button>
+            </div>
+
+        {!! Form::close() !!}
+
+    </div>
+
 
     <h2 class="location-heading">{{ __('locatioHeading') }}</h2>
 

@@ -6,6 +6,11 @@
     "REFERENCES": "IZDELKI IN REFERENCE",
     "ABOUTUS": "O NAS",
     "CONTACT": "KONTAKT",
+    "form_heading": "KONTAKTIRAJTE NAS",
+    "form_name": "IME IN PRIIMEK",
+    "form_message": "SPOROCILO",
+    "form_button": "POŠLJI",
+    "success_contact": "Uspešno ste poslali sporočilo. Kontaktirali vas bomo v najkrašjem možnem času.",
 
 
     "homeH1" : "Prava izbira pri izdelavi plastenk, zapork in prišlk za kozmetiko, farmacijo, prehrano, kemijo in svečarstvo",
