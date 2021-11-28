@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Exports\IdentsExport;
 use Illuminate\Http\Request;
 
 use App\Models\product;
@@ -25,6 +26,8 @@ class functionController extends Controller
 
     public function export()
     {
+
+        return Excel::download(new IdentsExport, 'identi.xlsx');
 
         $idents = product::select('idents.naziv', DB::raw('SUM(products.zaloga) As zaloga'))
             ->leftJoin('idents', 'idents.id', '=', 'products.ident_id')
